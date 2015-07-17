@@ -20,8 +20,8 @@ Gem::Specification.new do |s|
   s.require_paths = %w(lib)
   s.files         = Dir['lib/**/*.rb']
 
-  s.add_dependency 'bundler', '~> 1.0'
-  s.add_dependency 'activesupport', '~> 3.2'
-  s.add_dependency 'thor', '0.15.4'
+  s.add_dependency 'bundler'
+  s.add_dependency 'activesupport'
+  s.add_dependency 'thor'
   s.add_dependency 'httparty'
 end
